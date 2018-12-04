@@ -1,0 +1,16 @@
+.movie-lists-wrapper {
+  display: flex;
+  margin-top: 20px;
+  list-style-type: none;
+  flex-direction: column;
+}
+
+.movie-list {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.movie-list a {
+  color: #ffffff;
+  text-decoration: none;
+}

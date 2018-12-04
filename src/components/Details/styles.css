@@ -1,0 +1,5 @@
+.movie-detail-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,0 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #132238;
+}
