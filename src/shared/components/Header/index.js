@@ -18,7 +18,7 @@ const NavLink = props => (
 
 const Header = () => (
   <div className="header_wrapper">
-    <NavLink to="/">Root</NavLink>
+    <NavLink to="/">Home</NavLink>
     <span>&nbsp;</span>
     <NavLink to="trending">Trending</NavLink>
   </div>
