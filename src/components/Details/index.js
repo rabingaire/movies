@@ -1,7 +1,7 @@
 import React, { useReducer, useEffect } from "react";
 
-import { key } from "/src/config/apiKey";
-import { movieDetailUrl } from "/src/config/apiUrl";
+import { key } from "../../config/apiKey";
+import { movieDetailUrl } from "../../config/apiUrl";
 
 import "abortcontroller-polyfill/dist/polyfill-patch-fetch";
 import "./styles.css";

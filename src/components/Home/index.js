@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
-import { useMoviesData } from "/src/hooks/FetchMovies";
+import { useMoviesData } from "../../hooks/FetchMovies";
 
-import MovieLists from "/src/shared/components/MovieLists";
+import MovieLists from "../../shared/components/MovieLists";
 
-import { key } from "/src/config/apiKey";
-import { searchUrl } from "/src/config/apiUrl";
+import { key } from "../../config/apiKey";
+import { searchUrl } from "../../config/apiUrl";
 
 import "./styles.css";
 
