@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link changes the class when hovered 1`] = `
+<div
+  className="header_wrapper"
+>
+  <a
+    aria-current="page"
+    href="/"
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "#98ccd3",
+      }
+    }
+  >
+    Home
+  </a>
+  <span>
+     
+  </span>
+  <a
+    href="/trending"
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "#ffffff",
+      }
+    }
+  >
+    Trending
+  </a>
+</div>
+`;
