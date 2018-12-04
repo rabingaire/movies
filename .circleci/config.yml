@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: node:11
+    steps:
+      - checkout
+      - run:
+          name: Installing Depen..
+          command: npm install
+      - run:
+          name: Run test cases
+          command: npm test
